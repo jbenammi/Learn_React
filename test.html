@@ -11,11 +11,18 @@
   <body>
     <div id="app"></div>
     <script>
-    console.log(React);
-    console.log(ReactDOM);
-    const myButton = React.createElement('button', null, 'Click Me!');
-    console.log(JSON.stringify(myButton));
-    ReactDOM.render(myButton, document.getElementById('app'));
+    const Title = (props) => {
+      const { text } = props;
+      return React.createElement('h1', null, text);
+    }
+    const App = (props) => {
+      return React.createElement('div', null,
+      React.createElement(Title, { text: 'Title one!' } ),
+      React.createElement(Title, { text: 'Title two!!' } ),
+      React.createElement(Title, { text: 'Title three!!!' } )
+      )
+    }
+    ReactDOM.render(App(), document.getElementById('app'));
     </script>
   </body>
 </html>
