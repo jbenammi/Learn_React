@@ -1,4 +1,3 @@
-
 var jsList = [
   {name: "React", likes: 0},
   {name: "Vue", likes: 0},
