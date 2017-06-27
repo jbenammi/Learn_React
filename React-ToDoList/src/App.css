@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+li, .footer, .list-input {
+  width: 500px;
+  margin: 0px auto;
+}
+
+li {
+  border: 1px solid #888888;
+  border-left: 2px solid #888888;
+  border-right: 2px solid #888888;
+  list-style: none;
+}
+
+  li:first-of-type {
+    border-top: none;
+  }
+
+  li:last-of-type {
+    border-bottom: 2px solid #888888;
+}
+
+  li > p {
+    display: inline-block;
+    width: 75%;
+    padding-left: 5px;
+  }
+
+input {
+  height: 30px;
+  width: 89%;
+  padding-left: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+section > input:focus {
+  outline: none;
+}
+
+li > img, section > img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+  li > img:hover {
+    cursor: pointer;
+  }
+  section > img.arrow {
+    height: 20px;
+  }
+
+
+.list-input {
+  margin-top: 10px;
+  border: 2px solid #888888;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+.delete {
+  visibility: hidden;
+}
+  .delete:hover {
+    cursor: pointer;
+  }
+
+.footer p {
+  display: inline-block;
+}
+  .footer p:first-of-type {
+    margin-right: 20px;
+  }
+  .footer p:last-of-type:hover {
+    cursor: pointer;
+  }
+
+.view {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.view:hover {
+  background-color: #999999;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #777777;
+  color: #ffffff;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
