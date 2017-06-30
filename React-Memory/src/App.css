@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  width: 500px;
+  margin: 10px auto;
+}
+
+h1, p  {
+  background-color: #444444;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+p {
+  margin-top: 50px;
+}
+
+button {
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+  background-color: #888888;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.row {
+ height: 100px;
+ width: 500px;
+ margin: 20px auto;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: 8px solid black;
+  display: inline-block;
+  vertical-align: top;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.red, .orange, .yellow, .green, .blue, .purple {
+  display: none;
+  height: inherit;
+  width: inherit;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+.grey {
+  background-color: grey;
+  display: inline-block;
+  height: inherit;
+  width: inherit;
+  border: none;
+}
