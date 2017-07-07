@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App h2, .App h3 {
+  text-align: center;
+}
+
+.App h3 {
+  margin-top: 20px;
+}
+
+.App-header {
+  background-color: blue;
+  padding: 25px;
+  color: white;
+}
+
+
+form {
+  width: 500px;
+  margin: 20px auto;
+}
+
+  form div {
+    margin: 10px 0px;
+  }
+  form div img {
+    display: inline-block;
+    width: 40px;
+    vertical-align: bottom;
+    padding-left: 2%;
+  }
+
+input {
+  width: 85%;
+  /*height: 50px;*/
+  padding: 2%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+button {
+  display: block;
+  width: 100px;
+  margin: 20px 39%;
+}
